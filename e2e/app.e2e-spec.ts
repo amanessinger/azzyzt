@@ -7,8 +7,8 @@ describe('azzyzted-data App', function() {
     page = new AzzyztedDataPage();
   });
 
-  it('should display message saying app works', () => {
+  it('should display title', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('app works!');
+    expect(page.getParagraphText()).toEqual('Azzyzted Data');
   });
 });

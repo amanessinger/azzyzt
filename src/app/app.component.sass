@@ -1,4 +1,52 @@
 @import "../styles"
 
-h1
-  color: $signal-color
+.app-box
+  display: flex
+  flex-direction: column
+  height: 100vh
+  font-family: $main-font
+
+.app-title
+  font-family: $title-font
+  font-size: xx-large
+
+.box
+  padding-left: 15px
+  padding-right: 15px
+
+.header-bar-box
+  display: flex
+  flex-direction: row
+  flex: 0 0 8ex
+  align-items: center
+  justify-content: space-between
+  background-color: $primary-color
+  color: $primary-text-color
+
+.struct-editor-box
+  display: flex
+  flex-direction: column
+  flex: 1
+  background-color: $main-background-color
+  color: $main-text-color
+
+.footer-bar-box
+  display: flex
+  flex-direction: row
+  flex: 0 0 4ex
+  align-items: center
+  justify-content: space-between
+  font-size: smaller
+  background-color: $primary-color
+  color: $primary-text-color
+
+@media (max-width: 320px)
+  .app-box
+    font-size: smaller
+  .app-title
+    font-size: large
+  .header-bar-box
+    font-size: x-small
+  .footer-bar-box
+    font-size: x-small
+

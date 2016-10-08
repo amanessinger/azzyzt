@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.sass']
 })
 export class AppComponent {
-  title = 'app works!';
+  title = 'Azzyzted Data';
+  version = 'Version 0.0.1';
 }
