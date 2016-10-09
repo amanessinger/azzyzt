@@ -5,9 +5,14 @@ import { StructEditorComponent } from './struct-editor';
 
 const routes: Routes = [
   {
-    path: 'struct-edit',
+    path: 'struct-editor',
     component: StructEditorComponent
-  }
+  },
+  {
+    path: '',
+    redirectTo: '/struct-editor',
+    pathMatch: 'full'
+  },
 ];
 
 @NgModule({

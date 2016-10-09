@@ -4,17 +4,19 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { AzzyztedDataRoutingModule } from './app-routing.module';
 import { StructEditorComponent } from './struct-editor';
 
 @NgModule({
   declarations: [
     AppComponent,
-    StructEditorComponent,
+    StructEditorComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    AzzyztedDataRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

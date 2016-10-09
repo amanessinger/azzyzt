@@ -3,6 +3,7 @@
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 import { StructEditorComponent } from './struct-editor';
+import { RouterTestingModule } from '@angular/router/testing';
 
 describe('App: AzzyztedData', () => {
   beforeEach(() => {
@@ -11,6 +12,14 @@ describe('App: AzzyztedData', () => {
         AppComponent,
         StructEditorComponent
       ],
+      imports: [
+        RouterTestingModule.withRoutes([
+          {
+            path: '/struct-editor',
+            component: StructEditorComponent
+          }
+        ]),
+      ]
     });
   });
 
