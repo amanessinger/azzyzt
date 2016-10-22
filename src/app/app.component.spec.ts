@@ -15,7 +15,7 @@ describe('App: AzzyztedData', () => {
       imports: [
         RouterTestingModule.withRoutes([
           {
-            path: '/struct-editor',
+            path: 'struct-editor',
             component: StructEditorComponent
           }
         ]),
