@@ -1,11 +1,11 @@
 /* tslint:disable:no-unused-variable */
 
 import { TestBed, async } from '@angular/core/testing';
-import { StructEditorComponent } from './struct-editor.component';
+import { DataEditorComponent } from './data-editor.component';
 
-describe('Component: StructEditor', () => {
+describe('Component: DataEditor', () => {
   it('should create an instance', () => {
-    let component = new StructEditorComponent();
+    let component = new DataEditorComponent();
     expect(component).toBeTruthy();
   });
 });

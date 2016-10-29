@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { StructEditorComponent } from './struct-editor';
+import { DataEditorComponent } from './data-editor';
 
 const routes: Routes = [
   {
-    path: 'struct-editor',
-    component: StructEditorComponent
+    path: 'data-editor',
+    component: DataEditorComponent
   },
   {
     path: '',
-    redirectTo: '/struct-editor',
+    redirectTo: '/data-editor',
     pathMatch: 'full'
   },
 ];

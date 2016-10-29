@@ -5,12 +5,12 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { AzzyztedDataRoutingModule } from './app-routing.module';
-import { StructEditorComponent } from './struct-editor';
+import { DataEditorComponent } from './data-editor';
 
 @NgModule({
   declarations: [
     AppComponent,
-    StructEditorComponent
+    DataEditorComponent
   ],
   imports: [
     BrowserModule,
