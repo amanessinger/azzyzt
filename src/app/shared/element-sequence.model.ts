@@ -6,7 +6,7 @@ export class ElementSequence<T> {
   }
 
   contains(e: T): boolean {
-    return this.elements.find((el) => el == e) != null;
+    return this.elements.find((el) => el === e) != null;
   }
 
   assertIndex(index: number) {

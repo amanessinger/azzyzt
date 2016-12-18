@@ -2,6 +2,7 @@
 
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+import { DragulaModule } from 'ng2-dragula/ng2-dragula';
 import { DataEditorComponent } from './data-editor';
 import { RouterTestingModule } from '@angular/router/testing';
 
@@ -19,6 +20,7 @@ describe('App: AzzyztedData', () => {
             component: DataEditorComponent
           }
         ]),
+        DragulaModule,
       ]
     });
   });

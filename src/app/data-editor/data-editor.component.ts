@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-data-editor',
+  selector: 'my-data-editor',
   templateUrl: './data-editor.component.html',
   styleUrls: ['./data-editor.component.sass']
 })
