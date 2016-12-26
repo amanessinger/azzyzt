@@ -6,12 +6,12 @@ import { DragulaModule } from 'ng2-dragula/ng2-dragula';
 
 import { AppComponent } from './app.component';
 import { AzzyztedDataRoutingModule } from './app-routing.module';
-import { DataEditorComponent } from './data-editor';
+import { StructEditorComponent } from './struct-editor';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DataEditorComponent
+    StructEditorComponent
   ],
   imports: [
     BrowserModule,

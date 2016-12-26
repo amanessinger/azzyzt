@@ -4,15 +4,16 @@
   display: flex
   flex-direction: column
   height: 100vh
+  width: 100vw
   font-family: $main-font
 
 .app-title
   font-family: $title-font
   font-size: xx-large
 
-.box
-  padding-left: 15px
-  padding-right: 15px
+.padded-lr-box
+  padding-left: $std-padding
+  padding-right: $std-padding
 
 .header-bar-box
   display: flex
@@ -29,6 +30,7 @@
   flex: 1
   background-color: $main-background-color
   color: $main-text-color
+  padding: 0px
 
 .footer-bar-box
   display: flex

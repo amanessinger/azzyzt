@@ -1,4 +1,9 @@
-# angular2-webpack
+# Azzyzted Data is now using [angular2-webpack](https://github.com/preboot/angular2-webpack)
+
+Angular Quickstart turned out to be a little too simplistic, Angular-CLI did not go well with Dragular, 
+so here we are: [angular2-webpack](https://github.com/preboot/angular2-webpack) is the new base. 
+
+So far the rest of this file is the README from the seed repo.
 
 [![Dependency Status](https://david-dm.org/preboot/angular2-webpack/status.svg)](https://david-dm.org/preboot/angular2-webpack#info=dependencies) [![devDependency Status](https://david-dm.org/preboot/angular2-webpack/dev-status.svg)](https://david-dm.org/preboot/angular2-webpack#info=devDependencies)
 [![Join the chat at https://gitter.im/preboot/angular2-webpack](https://badges.gitter.im/preboot/angular2-webpack.svg)](https://gitter.im/preboot/angular2-webpack?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)

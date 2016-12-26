@@ -3,7 +3,7 @@
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 import { DragulaModule } from 'ng2-dragula/ng2-dragula';
-import { DataEditorComponent } from './data-editor';
+import { StructEditorComponent } from './struct-editor';
 import { RouterTestingModule } from '@angular/router/testing';
 
 describe('App: AzzyztedData', () => {
@@ -11,13 +11,13 @@ describe('App: AzzyztedData', () => {
     TestBed.configureTestingModule({
       declarations: [
         AppComponent,
-        DataEditorComponent
+        StructEditorComponent
       ],
       imports: [
         RouterTestingModule.withRoutes([
           {
             path: 'data-editor',
-            component: DataEditorComponent
+            component: StructEditorComponent
           }
         ]),
         DragulaModule,
