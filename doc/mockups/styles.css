@@ -1,0 +1,95 @@
+.app {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.app-header {
+  background-color: #880000;
+  color: white;
+  padding: 0.7em;
+}
+
+.app-nav {
+  background-color: #c90000;
+  color: white;
+}
+
+.app-title-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.app-title {
+  font-size: x-large;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.tabs {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.tabs__item {
+  flex: 1 1 0;
+}
+
+.tabs__item,
+.type-editor__target-name,
+.type-editor__lib-name,
+.type-editor__target-field,
+.type-editor__lib-type {
+  padding: 0.4em 0.7em;
+  white-space: nowrap;
+}
+
+.tabs__item--active {
+  background-color: #f7ab26;
+  color: white;
+}
+
+.type-lib-nav {
+  background-color: #7aa8e0;
+  color: #000066;
+}
+
+.type-lib-subnav {
+  background-color: #bbd9fa;
+  color: #000066;
+}
+
+.type-editor__main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.type-editor__main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.type-editor__target {
+  background-color: ivory;
+}
+
+.type-editor__lib {
+  background-color: aliceblue;
+}
+
+.type-editor__target, .type-editor__lib {
+  flex: 1 0 0;
+  overflow-x: hidden;
+}
+
+.type-editor__target-name {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.type-editor__lib-type {
+  text-align: right;
+}

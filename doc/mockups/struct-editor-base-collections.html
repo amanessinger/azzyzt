@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <link rel="stylesheet" type="text/css" href="reset.css"/>
+  <link rel="stylesheet" type="text/css" href="styles.css"/>
+
+  <title>Azzyzted Data</title>
+</head>
+
+<body class="app">
+
+<header class="app-header">
+  <div class="app-title-bar">
+    <div class="app-title">Azzyzted Data</div>
+    <div class="app-version">v0.0.3</div>
+  </div>
+</header>
+
+<nav class="app-nav">
+  <ul class="tabs">
+    <li class="tabs__item">Settings</li>
+    <li class="tabs__item tabs__item--active">Type Editor</li>
+  </ul>
+</nav>
+
+<div class="type-editor">
+  <nav class="type-lib-nav">
+    <ul class="tabs">
+      <li class="tabs__item">This</li>
+      <li class="tabs__item tabs__item--active">Base</li>
+      <li class="tabs__item">Mine</li>
+      <li class="tabs__item">Ours</li>
+      <li class="tabs__item">Azzyzt</li>
+    </ul>
+  </nav>
+  <nav class="type-lib-subnav">
+    <ul class="tabs">
+      <li class="tabs__item">Atoms</li>
+      <li class="tabs__item tabs__item--active">Collections</li>
+    </ul>
+  </nav>
+  <div class="type-editor__main">
+    <div class="type-editor__target">
+      <div class="type-editor__target-name">Person</div>
+      <div class="type-editor__target-fields">
+        <div class="type-editor__target-field">Given name: string</div>
+        <div class="type-editor__target-field">Middle names: Set&lt;string&gt;</div>
+        <div class="type-editor__target-field">Surname: string</div>
+        <div class="type-editor__target-field">Birthday: date</div>
+        <div class="type-editor__target-field">Address: address</div>
+      </div>
+    </div>
+    <div class="type-editor__lib">
+      <div class="type-editor__lib-types">
+        <div class="type-editor__lib-type">Array</div>
+        <div class="type-editor__lib-type">List</div>
+        <div class="type-editor__lib-type">Set</div>
+        <div class="type-editor__lib-type">Struct</div>
+        <div class="type-editor__lib-type">Reference</div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
