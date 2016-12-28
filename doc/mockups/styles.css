@@ -1,11 +1,13 @@
 .app {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 .app-header {
   background-color: #880000;
   color: white;
-  padding: 0.7em;
+  padding: 0.5em;
 }
 
 .app-nav {
@@ -41,13 +43,23 @@
 .type-editor__lib-name,
 .type-editor__target-field,
 .type-editor__lib-type {
-  padding: 0.4em 0.7em;
+  padding: 0.5em 0.5em;
   white-space: nowrap;
 }
 
-.tabs__item--active {
+.app-nav--active {
+  background-color: #f77b20;
+  color: white;
+}
+
+.type-lib-nav--active {
   background-color: #f7ab26;
   color: white;
+}
+
+.type-lib-subnav--active {
+  background-color: #ffe492;
+  color: black;
 }
 
 .type-lib-nav {
@@ -60,10 +72,18 @@
   color: #000066;
 }
 
-.type-editor__main {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+.app-header {
+  z-index: 3;
+  box-shadow: 0em 0.05em 0.5em #000000;
+}
+
+.nav-block {
+  z-index: 2;
+  box-shadow: 0em 0.05em 0.5em #000000;
+}
+
+.type-editor {
+  z-index: 1;
 }
 
 .type-editor__main {
@@ -80,8 +100,15 @@
   background-color: aliceblue;
 }
 
-.type-editor__target, .type-editor__lib {
+.type-editor__target {
+  flex: 3 0 0;
+}
+
+.type-editor__lib {
   flex: 1 0 0;
+}
+
+.type-editor__target, .type-editor__lib {
   overflow-x: hidden;
 }
 
