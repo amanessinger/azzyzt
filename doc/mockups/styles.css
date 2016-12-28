@@ -1,5 +1,5 @@
 html, .app {
-  height: 100%;
+  height: 100vh;
 }
 
 .app {
@@ -8,7 +8,7 @@ html, .app {
   flex-direction: column;
 }
 
-.app-header, .app-footer {
+.app-header {
   background-color: #880000;
   color: white;
   padding: 0.5em;
@@ -130,3 +130,15 @@ html, .app {
 .type-editor__lib-type {
   text-align: right;
 }
+
+.app-icon-bar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.4em;
+  background-color: black;
+  color: white;
+}
+
