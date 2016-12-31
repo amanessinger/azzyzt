@@ -35,6 +35,10 @@ html, .app {
   font-size: small;
 }
 
+.nav-block {
+  font-weight: lighter;
+}
+
 .tabs {
   display: flex;
   flex-flow: row wrap;
@@ -115,7 +119,7 @@ html, .app {
 }
 
 .type-editor__target {
-  flex: 3 0 0;
+  flex: 2 0 0;
 }
 
 .type-editor__lib {
@@ -126,12 +130,14 @@ html, .app {
   overflow-x: hidden;
 }
 
-.type-editor__target-name {
+.type-editor__target-name, .type-editor__lib-name {
   font-style: italic;
-  font-weight: bold;
+  border-bottom-color: #aaaaaa;
+  border-bottom-width: thin;
+  border-bottom-style: solid;
 }
 
-.type-editor__lib-type {
+.type-editor__lib-type, .type-editor__lib-name {
   text-align: right;
 }
 
