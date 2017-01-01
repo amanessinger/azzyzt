@@ -32,7 +32,16 @@ html, .app {
 }
 
 .app-title-project {
+  font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
   font-size: small;
+  padding-left: 1em;
+  padding-right: 1em;
+  border-left-color: #ba3838;
+  border-right-color: #ba3838;
+  border-left-width: thin;
+  border-right-width: thin;
+  border-left-style: solid;
+  border-right-style: solid;
 }
 
 .nav-block {
@@ -110,12 +119,20 @@ html, .app {
   justify-content: space-between;
 }
 
+.type-editor__target-name {
+  background-color: #fffbcc;
+}
+
 .type-editor__target {
-  background-color: ivory;
+  background-color: #fffff2;
+}
+
+.type-editor__lib-name {
+  background-color: #cae2fc;
 }
 
 .type-editor__lib {
-  background-color: aliceblue;
+  background-color: #dbedff;
 }
 
 .type-editor__target {
@@ -131,7 +148,7 @@ html, .app {
 }
 
 .type-editor__target-name, .type-editor__lib-name {
-  font-style: italic;
+  font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
   border-bottom-color: #aaaaaa;
   border-bottom-width: thin;
   border-bottom-style: solid;
