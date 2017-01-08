@@ -73,22 +73,22 @@ html, .app {
   color: white;
 }
 
-.type-lib-nav--active {
+.lib-nav--active {
   background-color: #f5b649;
   color: black;
 }
 
-.type-lib-subnav--active {
+.lib-subnav--active {
   background-color: #ffe492;
   color: black;
 }
 
-.type-lib-nav {
+.lib-nav {
   background-color: #7aa8e0;
   color: #000066;
 }
 
-.type-lib-subnav {
+.lib-subnav {
   background-color: #bbd9fa;
   color: #000066;
 }
@@ -156,6 +156,47 @@ html, .app {
 
 .type-editor__lib-type, .type-editor__lib-name {
   text-align: right;
+}
+
+.property-editor {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow-y: scroll;
+}
+
+.property-editor__object-name {
+  font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+  border-bottom-color: #aaaaaa;
+  border-bottom-width: thin;
+  border-bottom-style: solid;
+  background-color: #fffbcc;
+  padding: 0.5em;
+}
+
+.property-editor__object-properties {
+  flex: 1;
+  background-color: #fffff2;
+  padding: 0.5em;
+}
+
+.property-editor__object-property {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fffff2;
+  padding-bottom: 1em;
+}
+
+.property-editor__object-property-name, .property-editor__object-property-value {
+  flex: 1;
+}
+
+.property-editor__select {
+  width: 100%;
+  background-color: #fffbcc;
 }
 
 .app-icon-bar {

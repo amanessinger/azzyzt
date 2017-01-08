@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto"
+        rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab"
+        rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="reset.css"/>
+  <link rel="stylesheet" type="text/css" href="styles.css"/>
+
+  <title>Azzyzt</title>
+</head>
+
+<body class="app">
+
+<header class="app-header">
+  <div class="app-title-bar">
+    <div class="app-title">Azzyzt</div>
+    <div class="app-title-project">MyProject</div>
+    <i class="material-icons">settings</i>
+  </div>
+</header>
+
+<nav class="nav-block">
+  <div class="app-nav">
+    <ul class="tabs">
+      <li class="tabs__item app-nav--active">Projects</li>
+      <li class="tabs__item">Processes</li>
+      <li class="tabs__item">Types</li>
+    </ul>
+  </div>
+  <div class="lib-nav">
+    <ul class="tabs">
+      <li class="tabs__item lib-nav--active">This</li>
+      <li class="tabs__item">Mine</li>
+      <li class="tabs__item">Ours</li>
+      <li class="tabs__item">Azzyzt</li>
+    </ul>
+  </div>
+</nav>
+
+<div class="property-editor">
+  <div class="property-editor__object-name">MyProject</div>
+  <div class="property-editor__object-properties">
+    <div class="property-editor__object-property">
+      <div class="property-editor__object-property-name">Type:</div>
+      <div class="property-editor__object-property-value">
+        <select class="property-editor__select">
+          <option>Desktop App</option>
+          <option>Fat Client / Server</option>
+          <option selected>Responsive Web App</option>
+        </select>
+      </div>
+    </div>
+    <div class="property-editor__object-property">
+      <div class="property-editor__object-property-name">Client:</div>
+      <div class="property-editor__object-property-value">
+        <select class="property-editor__select">
+          <option selected>Angular</option>
+          <option>JSF</option>
+        </select>
+      </div>
+    </div>
+    <div class="property-editor__object-property">
+      <div class="property-editor__object-property-name">Server:</div>
+      <div class="property-editor__object-property-value">
+        <select class="property-editor__select">
+          <option>C# / dotNET</option>
+          <option>Go / Gin Gonic</option>
+          <option selected>Java / Java EE</option>
+          <option>JavaScript / Node</option>
+          <option>Scala / Play</option>
+        </select>
+      </div>
+    </div>
+    <div class="property-editor__object-property">
+      <div class="property-editor__object-property-name">App server:</div>
+      <div class="property-editor__object-property-value">
+        <select class="property-editor__select">
+          <option>Payara Server</option>
+          <option selected>Payara MicroProfile</option>
+          <option>Wildfly</option>
+          <option>Wildfly Swarm</option>
+        </select>
+      </div>
+    </div>
+    <div class="property-editor__object-property">
+      <div class="property-editor__object-property-name">Database:</div>
+      <div class="property-editor__object-property-value">
+        <select class="property-editor__select">
+          <option>Maria DB</option>
+          <option>MongoDB</option>
+          <option selected>PostgreSQL</option>
+        </select>
+      </div>
+    </div>
+    <div class="property-editor__object-property">
+      <div class="property-editor__object-property-name">Deployment:</div>
+      <div class="property-editor__object-property-value">
+        <select class="property-editor__select">
+          <option selected>Docker Compose</option>
+          <option>Native</option>
+          <option>Open Shift</option>
+        </select>
+      </div>
+    </div>
+    <div class="property-editor__object-property">
+      <div class="property-editor__object-property-name">Host:</div>
+      <div class="property-editor__object-property-value">
+        <select class="property-editor__select">
+          <option>CentOS / RHEL</option>
+          <option selected>Ubuntu</option>
+          <option>Windows</option>
+        </select>
+      </div>
+    </div>
+    <div class="property-editor__object-property">
+      <div class="property-editor__object-property-name">Source repo:</div>
+      <div class="property-editor__object-property-value">
+        <select class="property-editor__select">
+          <option>GitHub</option>
+          <option selected>GitLab</option>
+        </select>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="app-footer">
+  <div class="app-icon-bar">
+    <i class="material-icons">search</i>
+    <i class="material-icons">build</i>
+    <i class="material-icons">add_circle_outline</i>
+    <i class="material-icons">remove_circle_outline</i>
+    <i class="material-icons">undo</i>
+    <i class="material-icons">redo</i>
+  </div>
+</footer>
+
+</body>
+</html>
